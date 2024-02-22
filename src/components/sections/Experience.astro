@@ -2,6 +2,11 @@
 import Section from "../Section.astro";
 
 import { work } from "@cv";
+
+const formatter = new Intl.DateTimeFormat("en-US", {
+  year: "numeric",
+  month: "short",
+});
 ---
 
 <Section title="Work Experience">
@@ -9,10 +14,9 @@ import { work } from "@cv";
     {
       work.map(
         ({ name, startDate, endDate, position, summary, highlights, url }) => {
-          const startYear = new Date(startDate).getFullYear();
-          const endYear =
-            endDate != null ? new Date(endDate).getFullYear() : "Actual";
-          const years = `${startYear} - ${endYear}`;
+          const startDateFormatted = formatter.format(new Date(startDate));
+          const endDateFormatted = formatter.format(new Date(endDate));
+          const duration = `${startDateFormatted} - ${endDateFormatted}`;
 
           return (
             <li>
@@ -27,7 +31,7 @@ import { work } from "@cv";
                     <h4>{position}</h4>
                   </div>
 
-                  <time>{years}</time>
+                  <time>{duration}</time>
                 </header>
 
                 <footer>
@@ -52,6 +56,8 @@ import { work } from "@cv";
   article h3 {
     font-weight: 500;
     color: #111;
+    font-size: 1.2em;
+    margin-bottom: 0.3em;
   }
 
   article a {
@@ -78,6 +84,10 @@ import { work } from "@cv";
     color: #555;
     font-size: 0.85rem;
     min-width: 102px;
+  }
+
+  footer {
+    text-wrap: pretty;
   }
 
   @media (width <= 700px) {

@@ -6,7 +6,7 @@
     "email": "alejandro@gomezarceo.mx",
     "phone": "",
     "url": "https://gomezarceo.mx",
-    "summary": "+15 years working with web technologies, particularly in Front-End in the last years. I've been working with companies that have aided the growth of entrepreneurs, small and medium-sized businesses through the platforms they offer, from AB testing, online reservation applications, and online advertising. As a Software Engineer, I do my best to build high-quality web products, getting involved in all stages of development, from project planning, product specifications, interface design, system design, to construction, testing, and the CI/CD pipeline.",
+    "summary": "+15 years working with web technologies, particularly in Front-End in the last few years. I've been working with companies that have aided the growth of entrepreneurs, small and medium-sized businesses through the platforms they offer, from AB testing, online reservation applications, and online advertising. As a Software Engineer, I do my best to build high-quality web products, getting involved in all stages of development, from project planning, product specifications, interface design, system design, to testing, implementation, and the CI/CD pipeline.",
     "location": {
       "address": "",
       "postalCode": "97000",
@@ -56,6 +56,7 @@
     },
     {
       "name": "Convert",
+      "url": "https://www.convert.com",
       "position": "Front End Developer",
       "startDate": "2016-01-01",
       "endDate": "2021-06-01",
@@ -68,6 +69,7 @@
     },
     {
       "name": "Method Exists",
+      "url": "https://methodexists.com/",
       "position": "Full Stack Developer",
       "startDate": "2014-01-01",
       "endDate": "2015-08-01",
@@ -89,8 +91,8 @@
   "education": [
     {
       "institution": "Instituto Tecnológico de Mérida",
-      "url": "https://www.uoc.edu/portal/es/index.html",
-      "area": "Ingeniero en Sistemas Computacionales",
+      "url": "https://www.merida.tecnm.mx/",
+      "area": "Computer Systems Engineering",
       "studyType": "Bachelor",
       "startDate": "2000-09-01",
       "endDate": "2005-06-01",

@@ -186,12 +186,23 @@
       "level": "Mid",
       "keywords": ["Web Development", "Frontend", "CSS Framework", "Responsive"]
     },
-
     {
       "name": "Node",
       "icon": "Node",
       "level": "Mid",
-      "keywords": ["Web Development", "Backend", "JavaScript", "Server Side"]
+      "keywords": ["Web Development", "JavaScript", "Server Side"]
+    },
+    {
+      "name": "PHP",
+      "icon": "Php",
+      "level": "Mid",
+      "keywords": ["Web Development", "Server Side"]
+    },
+    {
+      "name": "Elixir/Phoenix",
+      "icon": "Phoenix",
+      "level": "Begineer",
+      "keywords": ["Web Development", "Server Side"]
     },
     {
       "name": "MySQL",

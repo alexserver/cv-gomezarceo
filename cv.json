@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Alejandro Gómez",
-    "label": "Full Stack Developer with more than 15 years of experience in web technologies",
+    "label": "Full Stack Developer focused on building products with good user experience",
     "image": "/me.jpg",
     "email": "alejandro@gomezarceo.mx",
     "phone": "",
     "url": "https://gomezarceo.mx",
-    "summary": "+15 years working with web technologies, particularly in Front-End in the last few years. I've been working with companies that have aided the growth of entrepreneurs, small and medium-sized businesses through the platforms they offer, from AB testing, online reservation applications, and online advertising. As a Software Engineer, I do my best to build high-quality web products, getting involved in all stages of development, from project planning, product specifications, interface design, system design, to testing, implementation, and the CI/CD pipeline.",
+    "summary": "+15 years working with web technologies, particularly in Front-End in the last few years. I've been working with companies that have aided the growth of entrepreneurs, small and medium-sized businesses through the services they offer, from A/B testing, online reservation applications, and programmatic advertising. As a Software Engineer, I do my best to build high-quality web products, getting involved in all stages of development, such as project planning, product specifications, interface design, system design, testing, implementation, and the CI/CD pipeline.",
     "location": {
       "address": "",
       "postalCode": "97000",
@@ -48,7 +48,7 @@
       "url": "https://www.spot2nite.com/",
       "startDate": "2021-07-01",
       "endDate": "2022-04-01",
-      "summary": "Worked with their internal API to maintain and bring new features. Integrated a public National Parks API to their reservations search engine. Built their first Public Reservation Web App",
+      "summary": "Worked with their internal API to maintain and bring new features. Integrated recreation.gov API to their reservations search engine. Built their first Public Reservation Web App",
       "highlights": [
         "Created their first Reservation Web App",
         "Integrated a public National Parks API to their search engine"
@@ -60,7 +60,7 @@
       "position": "Front End Developer",
       "startDate": "2016-01-01",
       "endDate": "2021-06-01",
-      "summary": "Worked and grew along with the company for 5 years, contributing to their Web App evolution over that period. Built 3 generations of their User Interface, on every upgrade adding and pivoting features according to the market needs. Introducing coding standards and best practices to the team. Helped to build the first draft of the development culture of the company",
+      "summary": "Worked and grew along with the company for 5 years, contributing to their Web App evolution over that period. Built 3 generations of their User Interface, on every upgrade adding and pivoting features according to the market needs. Contributed to reach the company's 100K MRR goal by implementing the UI features the product needed at the time. Contributed to enforce GDPR compliance in the App ecosystem. Introducing coding standards and best practices to the team. Helped to build the first draft of the development culture of the company",
       "highlights": [
         "Built their first SPA",
         "Built their second SPA",
@@ -73,7 +73,16 @@
       "position": "Full Stack Developer",
       "startDate": "2014-01-01",
       "endDate": "2015-08-01",
-      "summary": "Collaborated to develop a data-rich application that had to be capable of delivering vast amounts of data to be displayed and edited in real time. We had to build Web Forms that contained several complex fields per page",
+      "summary": "Collaborated to develop a data-rich application that had to be capable of delivering vast amounts of data to be displayed and edited in real time using web sockets. We had to build Web Forms that contained several complex fields per page",
+      "highlights": []
+    },
+    {
+      "name": "Wontonmedia",
+      "url": "https://www.linkedin.com/company/wontonmedia-llc/about/",
+      "position": "Web Developer",
+      "startDate": "2010-10-01",
+      "endDate": "2012-11-01",
+      "summary": "Built a product CMS to manage photo and video galleries for their adult content network",
       "highlights": []
     }
   ],
@@ -208,6 +217,12 @@
       "name": "MySQL",
       "icon": "Mysql",
       "level": "Mid",
+      "keywords": ["Database", "SQL", "Backend"]
+    },
+    {
+      "name": "PostgreSQL",
+      "icon": "Postgres",
+      "level": "Begineer",
       "keywords": ["Database", "SQL", "Backend"]
     },
     {

@@ -37,8 +37,8 @@
       "name": "Freestar",
       "position": "Front End Developer",
       "url": "https://freestar.com/",
-      "startDate": "2022-05-01",
-      "endDate": "2023-08-01",
+      "startDate": "2022-05-02",
+      "endDate": "2023-08-02",
       "summary": "Worked as a Front End developer to maintain and bring new features to their Main Dashboard, used for their internal operations. Made the next generation of their Public Dashboard that contained rich data reports and a better user interface that could help publishers administrate their ads inventory",
       "highlights": ["Built the next generation of their Public Dashboard"]
     },
@@ -46,8 +46,8 @@
       "name": "Spot2Nite",
       "position": "Full Stack Developer",
       "url": "https://www.spot2nite.com/",
-      "startDate": "2021-07-01",
-      "endDate": "2022-04-01",
+      "startDate": "2021-07-02",
+      "endDate": "2022-04-02",
       "summary": "Worked with their internal API to maintain and bring new features. Integrated recreation.gov API to their reservations search engine. Built their first Public Reservation Web App",
       "highlights": [
         "Created their first Reservation Web App",
@@ -58,31 +58,48 @@
       "name": "Convert",
       "url": "https://www.convert.com",
       "position": "Front End Developer",
-      "startDate": "2016-01-01",
-      "endDate": "2021-06-01",
+      "startDate": "2016-01-02",
+      "endDate": "2021-06-02",
       "summary": "Worked and grew along with the company for 5 years, contributing to their Web App evolution over that period. Built 3 generations of their User Interface, on every upgrade adding and pivoting features according to the market needs. Contributed to reach the company's 100K MRR goal by implementing the UI features the product needed at the time. Contributed to enforce GDPR compliance in the App ecosystem. Introducing coding standards and best practices to the team. Helped to build the first draft of the development culture of the company",
       "highlights": [
-        "Built their first SPA",
-        "Built their second SPA",
-        "Built their third SPA"
+        "Built the second generation of convert SPA",
+        "Built the third generation of convert SPA"
       ]
     },
     {
       "name": "Method Exists",
       "url": "https://methodexists.com/",
       "position": "Full Stack Developer",
-      "startDate": "2014-01-01",
-      "endDate": "2015-08-01",
+      "startDate": "2014-01-02",
+      "endDate": "2015-08-02",
       "summary": "Collaborated to develop a data-rich application that had to be capable of delivering vast amounts of data to be displayed and edited in real time using web sockets. We had to build Web Forms that contained several complex fields per page",
       "highlights": []
+    },
+    {
+      "name": "Convert",
+      "url": "https://www.convert.com",
+      "position": "External Consultant",
+      "startDate": "2012-11-02",
+      "endDate": "2013-04-02",
+      "summary": "Built the first generation of Convert's Single Page Application as an external consultant. This UI revamp introduced a fresh style and a more responsive experience to their customers",
+      "highlights": ["Built their first SPA"]
     },
     {
       "name": "Wontonmedia",
       "url": "https://www.linkedin.com/company/wontonmedia-llc/about/",
       "position": "Web Developer",
-      "startDate": "2010-10-01",
-      "endDate": "2012-11-01",
-      "summary": "Built a product CMS to manage photo and video galleries for their adult content network",
+      "startDate": "2010-10-02",
+      "endDate": "2012-11-02",
+      "summary": "Built a CMS that was sold as a product to manage photo and video galleries for content network in the adult industry",
+      "highlights": []
+    },
+    {
+      "name": "DTraveller",
+      "url": "https://www.dtraveller.com.mx/",
+      "position": "Senior Software Engineer",
+      "startDate": "2009-01-02",
+      "endDate": "2010-09-02",
+      "summary": "Being responsible for keeping DTraveller's e-commerce applications up to date and running. Built integrations with local payment gateways services for the e-commerce solutions.",
       "highlights": []
     }
   ],
@@ -91,8 +108,8 @@
       "organization": "Organization",
       "position": "Volunteer",
       "url": "https://organization.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
+      "startDate": "2012-02-02",
+      "endDate": "2013-02-02",
       "summary": "Description…",
       "highlights": ["Awarded 'Volunteer of the Month'"]
     }
@@ -103,8 +120,8 @@
       "url": "https://www.merida.tecnm.mx/",
       "area": "Computer Systems Engineering",
       "studyType": "Bachelor",
-      "startDate": "2000-09-01",
-      "endDate": "2005-06-01",
+      "startDate": "2000-09-02",
+      "endDate": "2005-06-02",
       "score": "8.7",
       "courses": []
     }
@@ -112,7 +129,7 @@
   "awards": [
     {
       "title": "Award",
-      "date": "2014-11-01",
+      "date": "2014-11-02",
       "awarder": "Company",
       "summary": "There is no spoon."
     }
@@ -129,7 +146,7 @@
     {
       "name": "Publication",
       "publisher": "Company",
-      "releaseDate": "2014-10-01",
+      "releaseDate": "2014-10-02",
       "url": "https://publication.com",
       "summary": "Description…"
     }

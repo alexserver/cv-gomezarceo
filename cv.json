@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Alejandro Gómez",
-    "label": "Senior Full Stack Engineer focused on building products with good user experience",
+    "label": "Senior Web Engineer focused on creating great user experiences",
     "image": "/me.jpg",
     "email": "alejandro@gomezarceo.mx",
     "phone": "",
     "url": "https://gomezarceo.mx",
-    "summary": "+15 years working with web technologies, particularly in Front-End in the last few years. I've been working with companies that have aided the growth of entrepreneurs, small and medium-sized businesses through the services they offer, from A/B testing, online reservation applications, and programmatic advertising. As a Software Engineer, I do my best to build high-quality web products, getting involved in all stages of development, such as project planning, product specifications, interface design, system design, testing, implementation, and the CI/CD pipeline.",
+    "summary": "As a Software Engineer, I build high-quality web products. As a naturally curious person, I love getting involved in all stages of the software development cycle, from project planning, product specs, interface and system design, testing, implementation, and the CI/CD pipeline. In 15+ years working with web technologies, I've worked with small and medium-sized companies with a variety of products: A/B testing, online reservations, and programmatic advertising.",
     "location": {
       "address": "",
       "postalCode": "97000",
@@ -39,7 +39,7 @@
       "url": "https://freestar.com/",
       "startDate": "2022-05-02",
       "endDate": "2023-08-02",
-      "summary": "Worked as a Front End developer to maintain and bring new features to their Main Dashboard, used for their internal operations. Made the next generation of their Public Dashboard that contained rich data reports and a better user interface that could help publishers administrate their ads inventory",
+      "summary": "Worked as a Front End developer to maintain and bring new features to their Main Dashboard, used for their internal operations. Made the next generation of their Public Dashboard that contained rich data reports and a better user interface that could help publishers administer their ads inventory",
       "highlights": ["Built the next generation of their Public Dashboard"]
     },
     {
@@ -48,7 +48,7 @@
       "url": "https://www.spot2nite.com/",
       "startDate": "2021-07-02",
       "endDate": "2022-04-02",
-      "summary": "Worked with their internal API to maintain and bring new features. Integrated recreation.gov API to their reservations search engine. Built their first Public Reservation Web App",
+      "summary": "Worked with their internal API to maintain and bring new features. Integrated recreation.gov API to their reservations search engine. Built their first Public Reservations Web App",
       "highlights": [
         "Created their first Reservation Web App",
         "Integrated a public National Parks API to their search engine"

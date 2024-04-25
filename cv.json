@@ -34,6 +34,22 @@
   },
   "work": [
     {
+      "name": "Freelancing",
+      "position": "Software Engineer",
+      "url": "https://gomezarceo.mx",
+      "startDate": "2023-08-02",
+      "summary": "Providing software development services to small companies or individuals through market places such as Upwork, focusing on React and Vue technologies.",
+      "highlights": ["Continuous improvement"],
+      "skills": [
+        "React",
+        "NextJs",
+        "Remix",
+        "Vue.js",
+        "Technical documents creation",
+        "Development culture consultancy"
+      ]
+    },
+    {
       "name": "Freestar",
       "position": "Front End Developer",
       "url": "https://freestar.com/",
@@ -305,20 +321,20 @@
   ],
   "projects": [
     {
-      "name": "The Oneliner",
-      "isActive": true,
-      "description": "A random joke comedian, made with Remix, hosted in Vercel, and loading pictures from the Unsplash API",
-      "highlights": ["Remix", "Side Project", "Learning CI/CD in Vercel"],
-      "url": "https://www.theoneliner.lol",
-      "github": "https://github.com/alexserver/alexserver"
-    },
-    {
       "name": "The Broker",
       "isActive": true,
       "description": "A a lightweight UI to display data from the Marketstack API. You can use it with your own Marketstack API keys to view general data on your web browser. Give the project a star if you like it.",
       "highlights": ["NextJs", "Side Project", "API data display"],
       "url": "https://thebroker.vercel.app",
       "github": "https://github.com/alexserver/thebroker"
+    },
+    {
+      "name": "The Oneliner",
+      "isActive": true,
+      "description": "A random joke comedian, made with Remix, hosted in Vercel, and loading pictures from the Unsplash API",
+      "highlights": ["Remix", "Side Project", "Learning CI/CD in Vercel"],
+      "url": "https://www.theoneliner.lol",
+      "github": "https://github.com/alexserver/alexserver"
     },
     {
       "name": "Paisania",
@@ -329,7 +345,7 @@
         "Conscious business",
         "Connecting with people"
       ],
-      "url": "https://paisania.es"
+      "url": "https://paisania-web.vercel.app"
     }
   ]
 }

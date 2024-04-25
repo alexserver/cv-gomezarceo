@@ -34,13 +34,37 @@
   },
   "work": [
     {
+      "name": "Freelancing",
+      "position": "Software Engineer",
+      "url": "https://gomezarceo.mx",
+      "startDate": "2023-08-02",
+      "summary": "Providing software development services to small companies or individuals through market places such as Upwork, focusing on React and Vue technologies.",
+      "highlights": ["Continuous improvement"],
+      "skills": [
+        "React",
+        "NextJs",
+        "Remix",
+        "Vue.js",
+        "Technical documents creation",
+        "Development culture consultancy"
+      ]
+    },
+    {
       "name": "Freestar",
       "position": "Front End Developer",
       "url": "https://freestar.com/",
       "startDate": "2022-05-02",
       "endDate": "2023-08-02",
       "summary": "Worked as a Front End developer to maintain and bring new features to their Main Dashboard, used for their internal operations. Made the next generation of their Public Dashboard that contained rich data reports and a better user interface that could help publishers administer their ads inventory",
-      "highlights": ["Built the next generation of their Public Dashboard"]
+      "highlights": ["Built the next generation of their Public Dashboard"],
+      "skills": [
+        "Vue.js",
+        "Vuex",
+        "Element+",
+        "Agile",
+        "Jira",
+        "Technical documents creation"
+      ]
     },
     {
       "name": "Spot2Nite",
@@ -52,6 +76,16 @@
       "highlights": [
         "Created their first Reservation Web App",
         "Integrated a public National Parks API to their search engine"
+      ],
+      "skills": [
+        "React",
+        "NextJs",
+        "Material-UI",
+        "Agile",
+        "Apollo client GraphQl",
+        "Elixir/Phoenix",
+        "Postgres",
+        "Docker"
       ]
     },
     {
@@ -64,6 +98,16 @@
       "highlights": [
         "Built the second generation of convert SPA",
         "Built the third generation of convert SPA"
+      ],
+      "skills": [
+        "RactiveJs",
+        "ES5/ES6",
+        "React",
+        "jQuery",
+        "DynamoDB",
+        "Lean Methodology",
+        "Culture shaping",
+        "Holacracy"
       ]
     },
     {
@@ -73,7 +117,8 @@
       "startDate": "2014-01-02",
       "endDate": "2015-08-02",
       "summary": "Collaborated to develop a data-rich application that had to be capable of delivering vast amounts of data to be displayed and edited in real time using web sockets. We had to build Web Forms that contained several complex fields per page",
-      "highlights": []
+      "highlights": [],
+      "skills": ["NodeJs", "ES5", "RactiveJs", "MongoDb"]
     },
     {
       "name": "Convert",
@@ -82,7 +127,8 @@
       "startDate": "2012-11-02",
       "endDate": "2013-04-02",
       "summary": "Built the first generation of Convert's Single Page Application as an external consultant. This UI revamp introduced a fresh style and a more responsive experience to their customers",
-      "highlights": ["Built their first SPA"]
+      "highlights": ["Built their first SPA"],
+      "skills": ["ES5", "jQuery", "Bootstrap", "SammyJs", "DotJs", "RequireJs"]
     },
     {
       "name": "Wontonmedia",
@@ -91,7 +137,8 @@
       "startDate": "2010-10-02",
       "endDate": "2012-11-02",
       "summary": "Built a CMS that was sold as a product to manage photo and video galleries for content network in the adult industry",
-      "highlights": []
+      "highlights": [],
+      "skills": ["PHP", "Yii Framework", "MySql", "jQuery", "ES5"]
     },
     {
       "name": "DTraveller",
@@ -100,7 +147,8 @@
       "startDate": "2009-01-02",
       "endDate": "2010-09-02",
       "summary": "Being responsible for keeping DTraveller's e-commerce applications up to date and running. Built integrations with local payment gateways services for the e-commerce solutions.",
-      "highlights": []
+      "highlights": [],
+      "skills": ["MSSQL Server", "C#", "ASP", "Web Services", "ASP.NET"]
     }
   ],
   "volunteer": [
@@ -273,20 +321,20 @@
   ],
   "projects": [
     {
-      "name": "The Oneliner",
-      "isActive": true,
-      "description": "A random joke comedian, made with Remix, hosted in Vercel, and loading pictures from the Unsplash API",
-      "highlights": ["Remix", "Side Project", "Learning CI/CD in Vercel"],
-      "url": "https://www.theoneliner.lol",
-      "github": "https://github.com/alexserver/alexserver"
-    },
-    {
       "name": "The Broker",
       "isActive": true,
       "description": "A a lightweight UI to display data from the Marketstack API. You can use it with your own Marketstack API keys to view general data on your web browser. Give the project a star if you like it.",
       "highlights": ["NextJs", "Side Project", "API data display"],
       "url": "https://thebroker.vercel.app",
       "github": "https://github.com/alexserver/thebroker"
+    },
+    {
+      "name": "The Oneliner",
+      "isActive": true,
+      "description": "A random joke comedian, made with Remix, hosted in Vercel, and loading pictures from the Unsplash API",
+      "highlights": ["Remix", "Side Project", "Learning CI/CD in Vercel"],
+      "url": "https://www.theoneliner.lol",
+      "github": "https://github.com/alexserver/alexserver"
     },
     {
       "name": "Paisania",
@@ -297,7 +345,7 @@
         "Conscious business",
         "Connecting with people"
       ],
-      "url": "https://paisania.es"
+      "url": "https://paisania-web.vercel.app"
     }
   ]
 }

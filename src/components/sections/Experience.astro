@@ -13,9 +13,18 @@ const formatter = new Intl.DateTimeFormat("en-US", {
   <ul>
     {
       work.map(
-        ({ name, startDate, endDate, position, summary, highlights, url }) => {
+        ({
+          name,
+          startDate,
+          endDate,
+          position,
+          summary,
+          highlights,
+          url,
+          skills,
+        }) => {
           const startDateFormatted = formatter.format(new Date(startDate));
-          const endDateFormatted = formatter.format(new Date(endDate));
+          const endDateFormatted = endDate ? formatter.format(new Date(endDate)) : 'present';
           const duration = `${startDateFormatted} - ${endDateFormatted}`;
 
           return (
@@ -36,6 +45,10 @@ const formatter = new Intl.DateTimeFormat("en-US", {
 
                 <footer>
                   <p>{summary}</p>
+                </footer>
+                <footer class="work-skills">
+                  Skills:
+                  <ul>{skills && skills.map((skill) => <li>{skill}</li>)}</ul>
                 </footer>
               </article>
             </li>
@@ -88,6 +101,31 @@ const formatter = new Intl.DateTimeFormat("en-US", {
 
   footer {
     text-wrap: pretty;
+  }
+
+  .work-skills {
+    margin-top: 7px;
+    color: #666;
+    font-size: 0.85rem;
+    display: inline-flex;
+    gap: 10px;
+
+    ul {
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 5px;
+
+      li {
+        border-radius: 6px;
+        background: #eee;
+        color: #444;
+        font-size: 0.6rem;
+        font-weight: 500;
+        padding: 0.2rem 0.6rem;
+      }
+    }
   }
 
   @media (width <= 700px) {

@@ -34,10 +34,25 @@
   },
   "work": [
     {
+      "name": "Aspire Systems",
+      "position": "Senior Front-End Engineer",
+      "url": "https://www.aspiresys.com/",
+      "startDate": "2024-05-01",
+      "summary": "Helping Aspire Systems to provide Software Consultancy services to their customers. I adapt to every specific client and project according to their necessities, mostly based on custom tailored React Apps. My duties here are to solve tech challenges, either designing a new component, proposing new user interfaces, improving their current testing coverage, or adding features from the backlog",
+      "highlights": ["Continuous improvement"],
+      "skills": [
+        "React",
+        "Typescript",
+        "Technical documents creation",
+        "Development consultancy"
+      ]
+    },
+    {
       "name": "Freelancing",
       "position": "Software Engineer",
       "url": "https://gomezarceo.mx",
       "startDate": "2023-08-02",
+      "endDate": "2024-04-30",
       "summary": "Providing software development services to small companies or individuals through market places such as Upwork, focusing on React and Vue technologies.",
       "highlights": ["Continuous improvement"],
       "skills": [

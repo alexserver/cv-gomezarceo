@@ -1,21 +1,21 @@
 ---
-import Section from "../Section.astro";
-import Html from "@/icons/html.astro";
 import Css from "@/icons/css.astro";
-import Javascript from "@/icons/javascript.astro";
-import Typescript from "@/icons/type.astro";
-import React from "@/icons/react.astro";
-import Node from "@/icons/node.astro";
-import Mysql from "@/icons/sql.astro";
 import Git from "@/icons/git.astro";
-import Tailwind from "@/icons/tailwind.astro";
+import Html from "@/icons/html.astro";
+import Javascript from "@/icons/javascript.astro";
 import Next from "@/icons/next.astro";
-import Vue from "@/icons/vue.astro";
-import Remix from "@/icons/remix.astro";
-import Php from "@/icons/php.astro";
+import Node from "@/icons/node.astro";
 import Phoenix from "@/icons/phoenix.astro";
+import Php from "@/icons/php.astro";
 import Postgres from "@/icons/postgres.astro";
+import React from "@/icons/react.astro";
+import Remix from "@/icons/remix.astro";
+import Mysql from "@/icons/sql.astro";
+import Tailwind from "@/icons/tailwind.astro";
+import Typescript from "@/icons/type.astro";
+import Vue from "@/icons/vue.astro";
 import { skills } from "@cv";
+import Section from "../Section.astro";
 
 const SKILLS_ICONS: Record<string, any> = {
   Html,
@@ -36,15 +36,17 @@ const SKILLS_ICONS: Record<string, any> = {
 };
 ---
 
-<Section title="Skills">
+<Section title="Technical Skills">
   <ul>
     {
-      skills.map(({ name, icon }) => {
+      skills.map(({ name, icon, description, url }) => {
         const Icon = SKILLS_ICONS[icon];
 
         return (
           <li>
-            {Icon && <Icon />} <span>{name}</span>
+            <a href={url} title={description} target="_blank">
+              {Icon && <Icon />} <span>{name}</span>
+            </a>
           </li>
         );
       })

@@ -1,13 +1,13 @@
 ---
-import { basics } from "@cv";
 import Section from "@/components/Section.astro";
+import GitHub from "@/icons/github.astro";
+import LinkedIn from "@/icons/linkedin.astro";
 import Mail from "@/icons/mail.astro";
 import Phone from "@/icons/phone.astro";
 import X from "@/icons/twitter.astro";
-import LinkedIn from "@/icons/linkedin.astro";
-import GitHub from "@/icons/github.astro";
 import WorldMap from "@/icons/worldmap.astro";
 import type { SocialIcon } from "@/types";
+import { basics } from "@cv";
 
 const { name, label, image, location, profiles, phone, email } = basics;
 const { city, region } = location;
@@ -41,7 +41,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
           email && (
             <a
               href={`mailto:${email}`}
-              title={`Enviar un correo electrónico a ${name} al correo ${email}`}
+              title={`Say hi to ${email}`}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -53,7 +53,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
           phone && (
             <a
               href={`tel:${phone}`}
-              title={`Llamar por teléfono a ${name} al número ${phone}`}
+              title={`Call me: ${phone}`}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -68,7 +68,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
             return (
               <a
                 href={url}
-                title={`Visitar el perfil de ${name} en ${network}`}
+                title={`Visit my profile on ${network}`}
                 target="_blank"
                 rel="noopener noreferrer"
               >

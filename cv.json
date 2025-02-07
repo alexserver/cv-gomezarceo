@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Alejandro Gómez",
-    "label": "Senior Web Engineer focused on creating great user experiences",
+    "label": "Software Engineer focused on making good UIs",
     "image": "/me.jpg",
     "email": "alejandro@gomezarceo.mx",
     "phone": "",
     "url": "https://gomezarceo.mx",
-    "summary": "I'm a Software Engineer, who commits to building high-quality web products, with a keen focus on the Front End, however, I'm capable of building a comprehensive Web Application from all sides. As a naturally curious person, I love getting involved in all stages of the software development cycle, from project planning, product specs, interface and system design, testing, implementation, and the CI/CD pipeline. In 15+ years working with web technologies, I've worked with small and medium-sized companies with a variety of products: A/B testing, online reservations, and programmatic advertising.",
+    "summary": "Highly motivated Software Engineer with 20 years of experience building full-stack web applications, specializing in front-end development.  A proactive and accountable team player passionate about collaborating with cross-functional teams to deliver exceptional user experiences.  Eager to tackle industry challenges and create impactful web products.",
     "location": {
       "address": "",
       "postalCode": "97000",
@@ -17,17 +17,17 @@
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "midudev",
+        "username": "alejandrogomezarceo",
         "url": "https://www.linkedin.com/in/alejandrogomezarceo/"
       },
       {
         "network": "X",
-        "username": "midudev",
+        "username": "alexserver",
         "url": "https://x.com/alexserver"
       },
       {
         "network": "GitHub",
-        "username": "midudev",
+        "username": "alexserver",
         "url": "https://github.com/alexserver"
       }
     ]
@@ -219,7 +219,9 @@
       "name": "JavaScript",
       "icon": "Javascript",
       "level": "Advanced",
-      "keywords": ["Web Development", "Frontend", "Fullstack", "ES6"]
+      "keywords": ["Web Development", "Frontend", "Fullstack", "ES6"],
+      "url": "https://www.javascript.com/",
+      "description": "A versatile scripting language that powers web pages and much more."
     },
     {
       "name": "TypeScript",
@@ -230,86 +232,276 @@
         "Frontend",
         "Backend",
         "JavaScript Superset"
-      ]
+      ],
+      "url": "https://www.typescriptlang.org/",
+      "description": "A typed superset of JavaScript that compiles to plain JavaScript."
     },
     {
       "name": "React",
       "icon": "React",
       "level": "Mid",
-      "keywords": ["Web Development", "Frontend", "JavaScript Library", "UI"]
+      "keywords": ["Web Development", "Frontend", "JavaScript Library", "UI"],
+      "url": "https://reactjs.org/",
+      "description": "A JavaScript library for building user interfaces (UIs)."
     },
     {
       "name": "Next.js",
       "icon": "Next",
       "level": "Mid",
-      "keywords": ["Web Development", "Frontend", "React Framework", "SSR"]
+      "keywords": ["Web Development", "Frontend", "React Framework", "SSR"],
+      "url": "https://nextjs.org/",
+      "description": "A React framework for server-side rendering and static site generation."
     },
     {
       "name": "Remix",
       "icon": "Remix",
       "level": "Begineer",
-      "keywords": ["Web Development", "Frontend", "React Framework", "SSR"]
+      "keywords": ["Web Development", "Frontend", "React Framework", "SSR"],
+      "url": "https://remix.run/",
+      "description": "A full-stack web framework that leverages web standards and modern browser features."
     },
     {
       "name": "Vue.js",
       "icon": "Vue",
       "level": "Mid",
-      "keywords": ["Web Development", "Frontend"]
+      "keywords": ["Web Development", "Frontend"],
+      "url": "https://vuejs.org/",
+      "description": "A progressive JavaScript framework for building user interfaces."
     },
     {
       "name": "HTML",
       "icon": "Html",
       "level": "Advanced",
-      "keywords": ["Web Development", "Frontend"]
+      "keywords": ["Web Development", "Frontend"],
+      "url": "https://www.w3.org/html/",
+      "description": "The standard markup language for creating web pages."
     },
     {
       "name": "CSS",
       "icon": "Css",
       "level": "Advanced",
-      "keywords": ["Web Development", "Frontend", "Responsive"]
+      "keywords": ["Web Development", "Frontend", "Responsive"],
+      "url": "https://www.w3.org/Style/CSS/Overview.en.html",
+      "description": "A style sheet language used for describing the presentation of a document written in a markup language like HTML."
     },
-
     {
       "name": "Tailwind",
       "icon": "Tailwind",
       "level": "Mid",
-      "keywords": ["Web Development", "Frontend", "CSS Framework", "Responsive"]
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "CSS Framework",
+        "Responsive"
+      ],
+      "url": "https://tailwindcss.com/",
+      "description": "A utility-first CSS framework for rapidly styling web applications."
     },
     {
       "name": "Node",
       "icon": "Node",
       "level": "Mid",
-      "keywords": ["Web Development", "JavaScript", "Server Side"]
+      "keywords": ["Web Development", "JavaScript", "Server Side"],
+      "url": "https://nodejs.org/en",
+      "description": "A JavaScript runtime built on Chrome's V8 JavaScript engine."
     },
     {
       "name": "PHP",
       "icon": "Php",
       "level": "Mid",
-      "keywords": ["Web Development", "Server Side"]
+      "keywords": ["Web Development", "Server Side"],
+      "url": "https://www.php.net/",
+      "description": "A popular general-purpose scripting language that is especially suited to web development."
     },
     {
       "name": "Elixir/Phoenix",
       "icon": "Phoenix",
       "level": "Begineer",
-      "keywords": ["Web Development", "Server Side"]
+      "keywords": ["Web Development", "Server Side"],
+      "url": "https://www.phoenixframework.org/",
+      "description": "Elixir is a dynamic, functional language designed for building scalable and maintainable applications. Phoenix is a web framework built with Elixir."
     },
     {
       "name": "MySQL",
       "icon": "Mysql",
       "level": "Mid",
-      "keywords": ["Database", "SQL", "Backend"]
+      "keywords": ["Database", "SQL", "Backend"],
+      "url": "https://www.mysql.com/",
+      "description": "A widely used relational database management system (RDBMS)."
     },
     {
       "name": "PostgreSQL",
       "icon": "Postgres",
       "level": "Begineer",
-      "keywords": ["Database", "SQL", "Backend"]
+      "keywords": ["Database", "SQL", "Backend"],
+      "url": "https://www.postgresql.org/",
+      "description": "A powerful, open source relational database management system."
     },
     {
       "name": "Git",
       "icon": "Git",
       "level": "Mid",
-      "keywords": ["Version control", "Collaboration", "Source Code"]
+      "keywords": ["Version control", "Collaboration", "Source Code"],
+      "url": "https://git-scm.com/",
+      "description": "A distributed version control system for tracking changes in source code during software development."
+    }
+  ],
+  "softskills": [
+    {
+      "name": "Active Listening",
+      "description": "Understanding team members' concerns and ideas.",
+      "keywords": ["Communication"],
+      "show": false
+    },
+    {
+      "name": "Clear Articulation",
+      "description": "Explaining technical concepts to both technical and non-technical audiences.",
+      "keywords": ["Communication"],
+      "show": false
+    },
+    {
+      "name": "Constructive Feedback",
+      "description": "Providing guidance that helps team members improve.",
+      "keywords": ["Communication"],
+      "show": true
+    },
+    {
+      "name": "Open Communication",
+      "description": "Fostering a culture where team members feel comfortable sharing ideas and concerns.",
+      "keywords": ["Communication"],
+      "show": true
+    },
+    {
+      "name": "Mentorship",
+      "description": "Guiding and supporting the growth of junior team members.",
+      "keywords": ["Leadership"],
+      "show": true
+    },
+    {
+      "name": "Delegation",
+      "description": "Assigning tasks effectively based on team members' strengths and weaknesses.",
+      "keywords": ["Leadership"],
+      "show": true
+    },
+    {
+      "name": "Motivation",
+      "description": "Inspiring and encouraging the team to achieve goals.",
+      "keywords": ["Leadership"],
+      "show": true
+    },
+    {
+      "name": "Conflict Resolution",
+      "description": "Addressing disagreements and finding solutions that work for everyone.",
+      "keywords": ["Leadership"],
+      "show": true
+    },
+    {
+      "name": "Collaboration",
+      "description": "Working effectively with others to achieve shared goals.",
+      "keywords": ["Teamwork"],
+      "show": true
+    },
+    {
+      "name": "Empathy",
+      "description": "Understanding and considering the perspectives of others.",
+      "keywords": ["Teamwork"],
+      "show": true
+    },
+    {
+      "name": "Respect",
+      "description": "Treating all team members with dignity and valuing their contributions.",
+      "keywords": ["Teamwork"],
+      "show": true
+    },
+    {
+      "name": "Trust",
+      "description": "Building a team environment where members feel safe and supported.",
+      "keywords": ["Teamwork"],
+      "show": false
+    },
+    {
+      "name": "Critical Thinking",
+      "description": "Analyzing situations and identifying the root cause of problems.",
+      "keywords": ["Problem-Solving"],
+      "show": true
+    },
+    {
+      "name": "Creativity",
+      "description": "Thinking outside the box to find innovative solutions.",
+      "keywords": ["Problem-Solving"],
+      "show": true
+    },
+    {
+      "name": "Decision-Making",
+      "description": "Making informed choices that benefit the team and the project.",
+      "keywords": ["Problem-Solving"],
+      "show": true
+    },
+    {
+      "name": "Adaptability",
+      "description": "Adjusting to changing circumstances and priorities.",
+      "keywords": ["Problem-Solving"],
+      "show": true
+    },
+    {
+      "name": "Organization",
+      "description": "Planning and prioritizing tasks effectively.",
+      "keywords": ["Time Management"],
+      "show": true
+    },
+    {
+      "name": "Time Management",
+      "description": "Meeting deadlines and managing time efficiently.",
+      "keywords": ["Time Management"],
+      "show": true
+    },
+    {
+      "name": "Project Management",
+      "description": "Overseeing projects and ensuring they are completed on time and within budget.",
+      "keywords": ["Time Management"],
+      "show": false
+    },
+    {
+      "name": "Self-Awareness",
+      "description": "Understanding your own strengths and weaknesses.",
+      "keywords": ["Emotional Intelligence"],
+      "show": true
+    },
+    {
+      "name": "Self-Regulation",
+      "description": "Managing your emotions and reactions.",
+      "keywords": ["Emotional Intelligence"],
+      "show": true
+    },
+    {
+      "name": "Empathy",
+      "description": "Understanding and considering the feelings of others.",
+      "keywords": ["Emotional Intelligence"],
+      "show": true
+    },
+    {
+      "name": "Social Skills",
+      "description": "Building and maintaining positive relationships.",
+      "keywords": ["Emotional Intelligence"],
+      "show": true
+    },
+    {
+      "name": "Business Acumen",
+      "description": "Understanding the business goals and how technology can support them.",
+      "keywords": ["Additional Considerations"],
+      "show": false
+    },
+    {
+      "name": "Continuous Learning",
+      "description": "Staying up-to-date with the latest technologies and trends.",
+      "keywords": ["Additional Considerations"],
+      "show": true
+    },
+    {
+      "name": "Patience",
+      "description": "Dealing with challenges and setbacks with a positive attitude.",
+      "keywords": ["Additional Considerations"],
+      "show": true
     }
   ],
   "languages": [
@@ -354,13 +546,13 @@
     {
       "name": "Paisania",
       "isActive": true,
-      "description": "A platform that wants to connect travellers with small communities within Spain. We are advocates that a conscious travel experience is about connecting with people, and being respectful with the place we're guests in",
+      "description": "A platform that connects travelers with small communities across Spain. We advocate for a mindful travel experience that fosters genuine connections with people and respects the places we visit",
       "highlights": [
         "Lean Startup",
         "Conscious business",
         "Connecting with people"
       ],
-      "url": "https://paisania-web.vercel.app"
+      "url": "https://paisania.es"
     }
   ]
 }

@@ -1,17 +1,24 @@
 ---
 import Layout from "@/layouts/Layout.astro";
 
+import KeyboardManager from "@/components/KeyboardManager.astro";
 import About from "@/components/sections/About.astro";
 import Education from "@/components/sections/Education.astro";
 import Experience from "@/components/sections/Experience.astro";
 import Hero from "@/components/sections/Hero.astro";
 import Projects from "@/components/sections/Projects.astro";
 import Skills from "@/components/sections/Skills.astro";
-import KeyboardManager from "@/components/KeyboardManager.astro";
+import SoftSkills from "@/components/sections/SoftSkills.astro";
+import { Tooltips } from 'astro-tooltips';
 
 import { basics } from "@cv";
 const { name, label } = basics;
 ---
+
+<head>
+  <meta charset="UTF-8">
+  <Tooltips interactive={false} delay={[15, 50]} maxWidth='250px' />
+</head>
 
 <Layout title={`${name}'s portfolio' - ${label}`}>
   <main>
@@ -20,6 +27,7 @@ const { name, label } = basics;
     <Experience />
     <Education />
     <Projects />
+    <SoftSkills />
     <Skills />
   </main>
 

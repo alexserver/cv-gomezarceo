@@ -528,22 +528,6 @@
   ],
   "projects": [
     {
-      "name": "The Broker",
-      "isActive": true,
-      "description": "A a lightweight UI to display data from the Marketstack API. You can use it with your own Marketstack API keys to view general data on your web browser. Give the project a star if you like it.",
-      "highlights": ["NextJs", "Side Project", "API data display"],
-      "url": "https://thebroker.vercel.app",
-      "github": "https://github.com/alexserver/thebroker"
-    },
-    {
-      "name": "The Oneliner",
-      "isActive": true,
-      "description": "A random joke comedian, made with Remix, hosted in Vercel, and loading pictures from the Unsplash API",
-      "highlights": ["Remix", "Side Project", "Learning CI/CD in Vercel"],
-      "url": "https://www.theoneliner.lol",
-      "github": "https://github.com/alexserver/alexserver"
-    },
-    {
       "name": "Paisania",
       "isActive": true,
       "description": "A platform that connects travelers with small communities across Spain. We advocate for a mindful travel experience that fosters genuine connections with people and respects the places we visit",
@@ -552,7 +536,17 @@
         "Conscious business",
         "Connecting with people"
       ],
-      "url": "https://paisania.es"
+      "url": "https://paisania.es",
+      "preview": "/paisania.png"
+    },
+    {
+      "name": "The Broker",
+      "isActive": true,
+      "description": "A a lightweight UI to display data from the Marketstack API. You can use it with your own Marketstack API keys to view general data on your web browser. Give the project a star if you like it.",
+      "highlights": ["NextJs", "Side Project", "API data display"],
+      "url": "https://thebroker.vercel.app",
+      "github": "https://github.com/alexserver/thebroker",
+      "preview": "/thebroker.png"
     }
   ]
 }

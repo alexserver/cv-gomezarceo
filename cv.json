@@ -38,7 +38,7 @@
       "position": "Senior Front-End Engineer",
       "url": "https://www.aspiresys.com/",
       "startDate": "2024-05-01",
-      "summary": "Helping Aspire Systems to provide Software Consultancy services to their customers. I adapt to every specific client and project according to their necessities, mostly based on custom tailored React Apps. My duties here are to solve tech challenges, either designing a new component, proposing new user interfaces, improving their current testing coverage, or adding features from the backlog",
+      "summary": "Helping Aspire Systems to provide Software Consultancy services to their customers. The last company I worked with is a global analytics and advisory firm that provides insights and solutions to help companies improve their human capital force. I was in charge of many React App projects, such as rewriting some internal UI components to replace a deprecated 3rd party UI library, building new data visualization components to display desktop reports, and modifying existing components to provide custom mathematical formulas processing.",
       "highlights": ["Continuous improvement"],
       "skills": [
         "React",
@@ -528,31 +528,32 @@
   ],
   "projects": [
     {
-      "name": "The Broker",
-      "isActive": true,
-      "description": "A a lightweight UI to display data from the Marketstack API. You can use it with your own Marketstack API keys to view general data on your web browser. Give the project a star if you like it.",
-      "highlights": ["NextJs", "Side Project", "API data display"],
-      "url": "https://thebroker.vercel.app",
-      "github": "https://github.com/alexserver/thebroker"
-    },
-    {
-      "name": "The Oneliner",
-      "isActive": true,
-      "description": "A random joke comedian, made with Remix, hosted in Vercel, and loading pictures from the Unsplash API",
-      "highlights": ["Remix", "Side Project", "Learning CI/CD in Vercel"],
-      "url": "https://www.theoneliner.lol",
-      "github": "https://github.com/alexserver/alexserver"
-    },
-    {
       "name": "Paisania",
       "isActive": true,
       "description": "A platform that connects travelers with small communities across Spain. We advocate for a mindful travel experience that fosters genuine connections with people and respects the places we visit",
       "highlights": [
-        "Lean Startup",
-        "Conscious business",
-        "Connecting with people"
+        "Conscious travel",
+        "Connect people with communities",
+        "Remix React",
+        "PostgreSql",
+        "Prisma"
       ],
-      "url": "https://paisania.es"
+      "url": "https://paisania.es",
+      "preview": "/paisania.png"
+    },
+    {
+      "name": "The Broker",
+      "isActive": true,
+      "description": "A a lightweight UI to display data from the Marketstack API. You can use it with your own Marketstack API keys to view general data on your web browser.",
+      "highlights": [
+        "NextJs React",
+        "Visual Charts",
+        "API data display",
+        "Stock market data"
+      ],
+      "url": "https://thebroker.vercel.app",
+      "github": "https://github.com/alexserver/thebroker",
+      "preview": "/thebroker.png"
     }
   ]
 }

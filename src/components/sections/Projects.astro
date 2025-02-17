@@ -9,7 +9,7 @@ import { projects } from "@cv";
   <ul>
     {
       projects.map(
-        ({ url, description, highlights, name, isActive, github }) => {
+        ({ url, description, highlights, name, isActive, github, preview }) => {
           return (
             <li>
               <article>
@@ -34,6 +34,9 @@ import { projects } from "@cv";
                       </a>
                     )}
                   </h3>
+                  <div class="no-print preview">
+                    <img src={preview} alt={`Preview of ${name}`} class="preview-picture" />
+                  </div>
                   <p>{description}</p>
                 </header>
                 <footer>
@@ -96,6 +99,17 @@ import { projects } from "@cv";
     animation-duration: 3s;
     animation-timing-function: ease-in;
     animation-iteration-count: infinite;
+  }
+
+  article .preview {
+    padding: 1em 0;
+  }
+  article .preview-picture {
+    width: 100%;
+    object-fit: contain;
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+    max-height: 150px;
   }
 
   footer {

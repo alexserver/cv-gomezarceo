@@ -6,7 +6,7 @@
     "email": "alejandro@gomezarceo.mx",
     "phone": "",
     "url": "https://gomezarceo.mx",
-    "summary": "Highly motivated Software Engineer with 20 years of experience building full-stack web applications, specializing in front-end development.  A proactive and accountable team player passionate about collaborating with cross-functional teams to deliver exceptional user experiences.  Eager to tackle industry challenges and create impactful web products.",
+    "summary": "I'm a software engineer focused on web applications with strong emphasis on front-end. I have experience working with cross-functional teams building high-performance web applications. Over the years I've' worked in the tech industry with companies from the US and Canada, collaborating with remote teams spread in different timezones all around the world. I like to work on projects that improve efficiency on companies operations. I also have experience in many industries, such as automated advertising, hospitality, and conversion optimization software. Even though I have plenty of experience with Javascript, Typescript, and some back-end stacks, like PHP and Elixir, I can adapt to other technologies, as I have a solid foundation in Software Engineering.",
     "location": {
       "address": "",
       "postalCode": "97000",
@@ -21,11 +21,6 @@
         "url": "https://www.linkedin.com/in/alejandrogomezarceo/"
       },
       {
-        "network": "X",
-        "username": "alexserver",
-        "url": "https://x.com/alexserver"
-      },
-      {
         "network": "GitHub",
         "username": "alexserver",
         "url": "https://github.com/alexserver"
@@ -37,7 +32,7 @@
       "name": "Aspire Systems",
       "position": "Senior Front-End Engineer",
       "url": "https://www.aspiresys.com/",
-      "startDate": "2024-05-01",
+      "startDate": "2024-05-02",
       "summary": "Helping Aspire Systems to provide Software Consultancy services to their customers. The last company I worked with is a global analytics and advisory firm that provides insights and solutions to help companies improve their human capital force. I was in charge of many React App projects, such as rewriting some internal UI components to replace a deprecated 3rd party UI library, building new data visualization components to display desktop reports, and modifying existing components to provide custom mathematical formulas processing.",
       "highlights": ["Continuous improvement"],
       "skills": [
@@ -45,24 +40,8 @@
         "Typescript",
         "Technical documents creation",
         "Development consultancy"
-      ]
-    },
-    {
-      "name": "Freelancing",
-      "position": "Software Engineer",
-      "url": "https://gomezarceo.mx",
-      "startDate": "2023-08-02",
-      "endDate": "2024-04-30",
-      "summary": "Providing software development services to small companies or individuals through market places such as Upwork, focusing on React and Vue technologies.",
-      "highlights": ["Continuous improvement"],
-      "skills": [
-        "React",
-        "NextJs",
-        "Remix",
-        "Vue.js",
-        "Technical documents creation",
-        "Development culture consultancy"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Freestar",
@@ -79,7 +58,8 @@
         "Agile",
         "Jira",
         "Technical documents creation"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Spot2Nite",
@@ -101,7 +81,8 @@
         "Elixir/Phoenix",
         "Postgres",
         "Docker"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Convert",
@@ -123,7 +104,8 @@
         "Lean Methodology",
         "Culture shaping",
         "Holacracy"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Method Exists",
@@ -133,7 +115,8 @@
       "endDate": "2015-08-02",
       "summary": "Collaborated to develop a data-rich application that had to be capable of delivering vast amounts of data to be displayed and edited in real time using web sockets. We had to build Web Forms that contained several complex fields per page",
       "highlights": [],
-      "skills": ["NodeJs", "ES5", "RactiveJs", "MongoDb"]
+      "skills": ["NodeJs", "ES5", "RactiveJs", "MongoDb"],
+      "visible": true
     },
     {
       "name": "Convert",
@@ -143,7 +126,8 @@
       "endDate": "2013-04-02",
       "summary": "Built the first generation of Convert's Single Page Application as an external consultant. This UI revamp introduced a fresh style and a more responsive experience to their customers",
       "highlights": ["Built their first SPA"],
-      "skills": ["ES5", "jQuery", "Bootstrap", "SammyJs", "DotJs", "RequireJs"]
+      "skills": ["ES5", "jQuery", "Bootstrap", "SammyJs", "DotJs", "RequireJs"],
+      "visible": true
     },
     {
       "name": "Wontonmedia",
@@ -153,7 +137,8 @@
       "endDate": "2012-11-02",
       "summary": "Built a CMS that was sold as a product to manage photo and video galleries for content network in the adult industry",
       "highlights": [],
-      "skills": ["PHP", "Yii Framework", "MySql", "jQuery", "ES5"]
+      "skills": ["PHP", "Yii Framework", "MySql", "jQuery", "ES5"],
+      "visible": false
     },
     {
       "name": "DTraveller",
@@ -163,7 +148,8 @@
       "endDate": "2010-09-02",
       "summary": "Being responsible for keeping DTraveller's e-commerce applications up to date and running. Built integrations with local payment gateways services for the e-commerce solutions.",
       "highlights": [],
-      "skills": ["MSSQL Server", "C#", "ASP", "Web Services", "ASP.NET"]
+      "skills": ["MSSQL Server", "C#", "ASP", "Web Services", "ASP.NET"],
+      "visible": false
     }
   ],
   "volunteer": [
@@ -354,39 +340,21 @@
       "show": false
     },
     {
+      "name": "Adaptability",
+      "description": "Adjusting to changing circumstances and priorities.",
+      "keywords": ["Problem-Solving"],
+      "show": true
+    },
+    {
       "name": "Clear Articulation",
       "description": "Explaining technical concepts to both technical and non-technical audiences.",
       "keywords": ["Communication"],
       "show": false
     },
     {
-      "name": "Constructive Feedback",
-      "description": "Providing guidance that helps team members improve.",
-      "keywords": ["Communication"],
-      "show": true
-    },
-    {
-      "name": "Open Communication",
-      "description": "Fostering a culture where team members feel comfortable sharing ideas and concerns.",
-      "keywords": ["Communication"],
-      "show": true
-    },
-    {
-      "name": "Mentorship",
-      "description": "Guiding and supporting the growth of junior team members.",
-      "keywords": ["Leadership"],
-      "show": true
-    },
-    {
-      "name": "Delegation",
-      "description": "Assigning tasks effectively based on team members' strengths and weaknesses.",
-      "keywords": ["Leadership"],
-      "show": true
-    },
-    {
-      "name": "Motivation",
-      "description": "Inspiring and encouraging the team to achieve goals.",
-      "keywords": ["Leadership"],
+      "name": "Collaboration",
+      "description": "Working effectively with others to achieve shared goals.",
+      "keywords": ["Teamwork"],
       "show": true
     },
     {
@@ -396,33 +364,15 @@
       "show": true
     },
     {
-      "name": "Collaboration",
-      "description": "Working effectively with others to achieve shared goals.",
-      "keywords": ["Teamwork"],
-      "show": true
-    },
-    {
-      "name": "Empathy",
-      "description": "Understanding and considering the perspectives of others.",
-      "keywords": ["Teamwork"],
-      "show": true
-    },
-    {
-      "name": "Respect",
-      "description": "Treating all team members with dignity and valuing their contributions.",
-      "keywords": ["Teamwork"],
-      "show": true
-    },
-    {
-      "name": "Trust",
-      "description": "Building a team environment where members feel safe and supported.",
-      "keywords": ["Teamwork"],
+      "name": "Constructive Feedback",
+      "description": "Providing guidance that helps team members improve.",
+      "keywords": ["Communication"],
       "show": false
     },
     {
-      "name": "Critical Thinking",
-      "description": "Analyzing situations and identifying the root cause of problems.",
-      "keywords": ["Problem-Solving"],
+      "name": "Continuous Learning",
+      "description": "Staying up-to-date with the latest technologies and trends.",
+      "keywords": ["Additional Considerations"],
       "show": true
     },
     {
@@ -432,26 +382,56 @@
       "show": true
     },
     {
-      "name": "Decision-Making",
-      "description": "Making informed choices that benefit the team and the project.",
+      "name": "Critical Thinking",
+      "description": "Analyzing situations and identifying the root cause of problems.",
       "keywords": ["Problem-Solving"],
       "show": true
     },
     {
-      "name": "Adaptability",
-      "description": "Adjusting to changing circumstances and priorities.",
+      "name": "Curiosity",
+      "description": "Seeking out new challenges and opportunities for growth.",
+      "keywords": ["Additional Considerations"],
+      "show": true
+    },
+    {
+      "name": "Decision-Making",
+      "description": "Making informed choices that benefit the team and the project.",
       "keywords": ["Problem-Solving"],
+      "show": false
+    },
+    {
+      "name": "Delegation",
+      "description": "Assigning tasks effectively based on team members' strengths and weaknesses.",
+      "keywords": ["Leadership"],
+      "show": false
+    },
+    {
+      "name": "Empathy",
+      "description": "Understanding and considering the perspectives of others.",
+      "keywords": ["Teamwork"],
+      "show": true
+    },
+    {
+      "name": "Mentorship",
+      "description": "Guiding and supporting the growth of junior team members.",
+      "keywords": ["Leadership"],
+      "show": true
+    },
+    {
+      "name": "Motivation",
+      "description": "Inspiring and encouraging the team to achieve goals.",
+      "keywords": ["Leadership"],
+      "show": false
+    },
+    {
+      "name": "Open Communication",
+      "description": "Fostering a culture where team members feel comfortable sharing ideas and concerns.",
+      "keywords": ["Communication"],
       "show": true
     },
     {
       "name": "Organization",
       "description": "Planning and prioritizing tasks effectively.",
-      "keywords": ["Time Management"],
-      "show": true
-    },
-    {
-      "name": "Time Management",
-      "description": "Meeting deadlines and managing time efficiently.",
       "keywords": ["Time Management"],
       "show": true
     },
@@ -462,45 +442,39 @@
       "show": false
     },
     {
+      "name": "Respect",
+      "description": "Treating all team members with dignity and valuing their contributions.",
+      "keywords": ["Teamwork"],
+      "show": true
+    },
+    {
+      "name": "Resilience",
+      "description": "Bouncing back from setbacks and staying positive.",
+      "keywords": ["Additional Considerations"],
+      "show": true
+    },
+    {
       "name": "Self-Awareness",
       "description": "Understanding your own strengths and weaknesses.",
       "keywords": ["Emotional Intelligence"],
       "show": true
     },
     {
-      "name": "Self-Regulation",
-      "description": "Managing your emotions and reactions.",
-      "keywords": ["Emotional Intelligence"],
-      "show": true
-    },
-    {
-      "name": "Empathy",
-      "description": "Understanding and considering the feelings of others.",
-      "keywords": ["Emotional Intelligence"],
-      "show": true
-    },
-    {
-      "name": "Social Skills",
-      "description": "Building and maintaining positive relationships.",
-      "keywords": ["Emotional Intelligence"],
-      "show": true
-    },
-    {
-      "name": "Business Acumen",
-      "description": "Understanding the business goals and how technology can support them.",
-      "keywords": ["Additional Considerations"],
-      "show": false
-    },
-    {
-      "name": "Continuous Learning",
-      "description": "Staying up-to-date with the latest technologies and trends.",
+      "name": "Self-Motivation",
+      "description": "Staying driven and focused on achieving your goals.",
       "keywords": ["Additional Considerations"],
       "show": true
     },
     {
-      "name": "Patience",
-      "description": "Dealing with challenges and setbacks with a positive attitude.",
-      "keywords": ["Additional Considerations"],
+      "name": "Time Management",
+      "description": "Meeting deadlines and managing time efficiently.",
+      "keywords": ["Time Management"],
+      "show": true
+    },
+    {
+      "name": "Trust",
+      "description": "Building a team environment where members feel safe and supported.",
+      "keywords": ["Teamwork"],
       "show": true
     }
   ],
@@ -532,11 +506,11 @@
       "isActive": true,
       "description": "A platform that connects travelers with small communities across Spain. We advocate for a mindful travel experience that fosters genuine connections with people and respects the places we visit",
       "highlights": [
-        "Conscious travel",
-        "Connect people with communities",
-        "Remix React",
-        "PostgreSql",
-        "Prisma"
+        "React",
+        "Remix",
+        "Travel industry",
+        "Conscious business",
+        "Startup"
       ],
       "url": "https://paisania.es",
       "preview": "/paisania.png"
@@ -546,10 +520,12 @@
       "isActive": true,
       "description": "A a lightweight UI to display data from the Marketstack API. You can use it with your own Marketstack API keys to view general data on your web browser.",
       "highlights": [
-        "NextJs React",
+        "React",
+        "NextJs",
         "Visual Charts",
-        "API data display",
-        "Stock market data"
+        "Stock Market",
+        "SPA",
+        "Demo"
       ],
       "url": "https://thebroker.vercel.app",
       "github": "https://github.com/alexserver/thebroker",

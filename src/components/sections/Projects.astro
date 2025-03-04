@@ -5,7 +5,7 @@ import Section from "../Section.astro";
 import { projects } from "@cv";
 ---
 
-<Section title="Projects">
+<Section id="projects" title="Projects">
   <ul>
     {
       projects.map(
@@ -15,11 +15,7 @@ import { projects } from "@cv";
               <article>
                 <header>
                   <h3>
-                    <a
-                      href={url}
-                      target="_blank"
-                      title={`Go to ${name}`}
-                    >
+                    <a href={url} target="_blank" title={`Go to ${name}`}>
                       {name}
                     </a>
                     {isActive && <span>•</span>}
@@ -35,7 +31,11 @@ import { projects } from "@cv";
                     )}
                   </h3>
                   <div class="no-print preview">
-                    <img src={preview} alt={`Preview of ${name}`} class="preview-picture" />
+                    <img
+                      src={preview}
+                      alt={`Preview of ${name}`}
+                      class="preview-picture"
+                    />
                   </div>
                   <p>{description}</p>
                 </header>
@@ -147,18 +147,28 @@ import { projects } from "@cv";
   @media (width <= 700px) {
     ul {
       margin-inline: 0px;
+      display: flex;
+      flex-direction: column;
     }
 
     article {
       border: none;
-      box-shadow: 0 1px 1px #f2f2f2;
-      padding: 0 0 16px 0;
+      border: 1px solid #f2f2f2;
+      padding: 16px;
     }
   }
 
   @media print {
     article h3 span {
       animation-name: none;
+    }
+  }
+</style>
+
+<style is:global>
+  @media print {
+    #projects {
+      display: none;
     }
   }
 </style>

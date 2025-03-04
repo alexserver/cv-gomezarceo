@@ -22,11 +22,16 @@ const formatter = new Intl.DateTimeFormat("en-US", {
           highlights,
           url,
           skills,
+          visible
         }) => {
           const startDateFormatted = formatter.format(new Date(startDate));
           const endDateFormatted = endDate ? formatter.format(new Date(endDate)) : 'present';
           const duration = `${startDateFormatted} - ${endDateFormatted}`;
 
+          if (!visible) {
+            return null;
+          }
+          
           return (
             <li>
               <article>

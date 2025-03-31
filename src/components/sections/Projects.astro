@@ -10,6 +10,7 @@ import { projects } from "@cv";
     {
       projects.map(
         ({ url, description, highlights, name, isActive, github, preview }) => {
+          if (!isActive) return null;
           return (
             <li>
               <article>
